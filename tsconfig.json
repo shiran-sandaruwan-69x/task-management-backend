@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "types": ["./types.d.ts"],
+    "module": "nodeNext",
+    "moduleResolution": "NodeNext",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    //    "types": ["node", "express"],
+    //    "typeRoots": ["./src/types"]
+  },
+  "include": ["src/**/*"],
+}
